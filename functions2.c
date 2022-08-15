@@ -73,7 +73,7 @@ int print_non_printable(va_list types, char buffer[],
 	UNUSED(width);
 	UNUSED(precision);
 	UNUSED(size);
-
+	
 	if (str == NULL)
 		return (write(1, "(null)", 6));	
 
